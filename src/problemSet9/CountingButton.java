@@ -59,7 +59,7 @@ public class CountingButton extends JFrame implements ActionListener{
             	
             	if(buttonCount < 1 || buttonCount > 10)
 	    		{
-            		JOptionPane.showMessageDialog(this, new ArithmeticException("Enter numbers between 1 and 10 only"));
+            		JOptionPane.showMessageDialog(this, new IllegalButtonCount("Enter numbers between 1 and 10 only"));
 	    		}	
             }
 	    	
